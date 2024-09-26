@@ -34,7 +34,7 @@ const Navbar = () => {
 
       <ul className={`flex-col md:flex md:flex-row md:justify-end ${isOpen ? 'flex' : 'hidden'} absolute md:relative bg-white w-full md:w-auto z-10`}>
         <li className="mr-6">
-          <Link to="/homepage" className="text-gray-600 hover:text-gray-900">Home</Link>
+          <Link to="/home" className="text-gray-600 hover:text-gray-900">Home</Link>
         </li>
         <li className="mr-6">
           <Link to="/about" className="text-gray-600 hover:text-gray-900">About</Link>

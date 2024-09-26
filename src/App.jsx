@@ -26,10 +26,11 @@ function App() {
   
         <div className="flex-1">
           <Routes>
+          <Route path="/" element={<Homepage />} />
             <Route path="/signup" element={<SimpleRegistrationForm />} />
             <Route path="/signin" element={<Signin />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/homepage" element={<Homepage />} />
+            <Route path="/home" element={<Homepage />} />
             <Route path="/about" element={<About />} />
             <Route path="/wishlist" element={<Wishlist />} />
             <Route path="/cart" element={<Cart />} />
